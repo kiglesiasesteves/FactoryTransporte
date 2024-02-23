@@ -16,6 +16,7 @@ Devuelve un entero que representa el tipo de embalaje adecuado:
 0: Palet
 1: Envoltorio de cartón
 2: Caja de madera
+
  
 - Camion
 
@@ -25,11 +26,13 @@ El método costeTotal calcula el coste total del envío en función del código 
 
 En este caso, Camion implementa los métodos costeTotal y tipoEmbalaje según la lógica especificada en el enunciado del problema. El método costeTotal calcula el coste total del envío en función del código postal de destino, mientras que tipoEmbalaje determina el tipo de embalaje requerido para el paquete en base a sus dimensiones y peso.
 
+
 - Bicicleta
   
 La clase Bicicleta implementa la interfaz IComun, lo que significa que debe proporcionar una implementación para todos los métodos definidos en esa interfaz. En este caso, Bicicleta implementa los métodos costeTotal y tipoEmbalaje según la lógica especificada en el enunciado del problema. 
 
 El método costeTotal calcula el coste total del envío en función del código postal de destino, mientras que tipoEmbalaje determina el tipo de embalaje requerido para el paquete en base a sus dimensiones y peso.
+
 
 - TransporteFactory
   
@@ -37,11 +40,14 @@ El método costeTotal calcula el coste total del envío en función del código 
 
 Utiliza constantes definidas para representar los diferentes tipos de transporte (CAMION y BICICLETA). Cuando se llama al método getTransporte con un tipo específico, devuelve una instancia del tipo correspondiente de objeto que implementa la interfaz IComun (en este caso, Camion o Bicicleta). Si se proporciona un tipo de transporte no válido, el método devuelve null.
 
+
 - App
 
   La clase App es la clase principal de la aplicación. En el método main, se prueba el funcionamiento de la fábrica de transporte. Se obtiene una instancia de camión desde la fábrica utilizando el método getTransporte.
 
    Si se pudo obtener la instancia del camión, se realizan operaciones con él y se muestran los resultados. Si no se pudo obtener la instancia del camión, se muestra un mensaje de error.
+
+  
   
 ## Resultado
 
