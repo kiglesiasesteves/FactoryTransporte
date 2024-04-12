@@ -1,3 +1,5 @@
+package com.DAM2024.factoryTransporte;
+
 /**
  * La clase TransporteFactory proporciona un método estático para obtener instancias de diferentes tipos de transporte.
  */

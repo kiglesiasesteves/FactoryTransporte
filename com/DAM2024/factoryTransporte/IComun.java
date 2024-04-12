@@ -1,3 +1,5 @@
+package com.DAM2024.factoryTransporte;
+
 /**
  * La interfaz IComun define los métodos comunes que deben ser implementados por las clases
  * que representan diferentes tipos de transporte en la aplicación.

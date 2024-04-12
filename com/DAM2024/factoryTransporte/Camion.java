@@ -1,3 +1,4 @@
+package com.DAM2024.factoryTransporte;
 
 /**
  * La clase Camion implementa la interfaz IComun y representa un tipo de transporte específico: camión.

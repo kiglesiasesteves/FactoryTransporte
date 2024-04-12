@@ -1,5 +1,7 @@
+package com.DAM2024.factoryTransporte;
+
 /**
- * La clase App es la clase principal de la aplicación.
+ * La clase com.DAM2024.factoryTransporte.App es la clase principal de la aplicación.
  * En esta clase se prueba el funcionamiento de la fábrica de transporte.
  */
 public class App {

@@ -41,9 +41,9 @@ El método costeTotal calcula el coste total del envío en función del código 
 Utiliza constantes definidas para representar los diferentes tipos de transporte (CAMION y BICICLETA). Cuando se llama al método getTransporte con un tipo específico, devuelve una instancia del tipo correspondiente de objeto que implementa la interfaz IComun (en este caso, Camion o Bicicleta). Si se proporciona un tipo de transporte no válido, el método devuelve null.
 
 
-- App
+- com.DAM2024.factoryTransporte.App
 
-  La clase App es la clase principal de la aplicación. En el método main, se prueba el funcionamiento de la fábrica de transporte. Se obtiene una instancia de camión desde la fábrica utilizando el método getTransporte.
+  La clase com.DAM2024.factoryTransporte.App es la clase principal de la aplicación. En el método main, se prueba el funcionamiento de la fábrica de transporte. Se obtiene una instancia de camión desde la fábrica utilizando el método getTransporte.
 
    Si se pudo obtener la instancia del camión, se realizan operaciones con él y se muestran los resultados. Si no se pudo obtener la instancia del camión, se muestra un mensaje de error.
 
